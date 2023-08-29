@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = {
   bail: true,
-  require: ['./test/initializers'],
-  'spec': ['packages/**/*.test.js'],
+  require: ['esbuild-register'],
+  spec: ['packages/**/*.test.ts'],
 }
